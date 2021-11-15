@@ -206,9 +206,9 @@ else{
     var[counter1,displayDate1] = nextPalindromeDate(date);
     var[counter2,displayDate2] = getPreviousPalindromeDate(date);
     if (counter1 > counter2) {
-        result.innerText = `The nearest palindrome date is ${displayDate2.day}-${displayDate2.month}-${displayDate2.year}, you missed by ${counter2} days.`;
+        result.innerText = `The nearest palindrome date  ${displayDate2.day}-${displayDate2.month}-${displayDate2.year}, you missed by ${counter2} days.`;
       } else {
-        result.innerText = `The nearest palindrome date is ${displayDate1.day}-${displayDate1.month}-${displayDate1.year}, you missed by ${counter1} days.`;
+        result.innerText = `The nearest palindrome date  ${displayDate1.day}-${displayDate1.month}-${displayDate1.year}, you missed by ${counter1} days.`;
       }
 }
 }
